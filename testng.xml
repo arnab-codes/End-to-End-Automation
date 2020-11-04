@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "tests">
+<listeners>
+<listener class-name="Arnab.Listners2"/>
+</listeners>
+
+  <test thread-count="5" name="ScreenShot">
+    <classes>
+    <class name="Arnab.ValidateTitle"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="log in">
+  <classes>
+  <class name="Arnab.Homepage"/>
+  </classes>
+  </test>
+</suite> <!-- Suite -->

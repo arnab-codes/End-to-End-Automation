@@ -1,0 +1,8 @@
+23:22:05.698 [main] INFO  resources.Base - Driver Started
+23:22:08.725 [main] INFO  resources.Base - URL is successfully opened
+23:22:09.772 [main] INFO  resources.Base - non-restricted
+23:22:16.110 [main] INFO  resources.Base - user is log   out
+23:22:17.736 [main] INFO  resources.Base - URL is successfully opened
+23:22:19.732 [main] INFO  resources.Base - restricted
+12:34:53.445 [main] INFO  resources.Base - Driver Started
+12:34:55.594 [main] INFO  resources.Base - URL is successfully opened

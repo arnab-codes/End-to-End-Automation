@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "tests">
+<listeners>
+<listener class-name="Arnab.Listners2"/>
+</listeners>
+
+<test name="Positive test validating login">
+  <classes>
+  <class name="cucumberOptions.testRunner"/>
+  </classes>
+  </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,8 @@
+12:54:18.597 [TestNG-tests-1] INFO  resources.Base - URL is successfully opened
+12:54:22.083 [TestNG-tests-2] INFO  resources.Base - URL is successfully opened
+12:54:26.139 [TestNG-tests-2] INFO  resources.Base - non-restricted
+12:54:32.488 [TestNG-tests-2] INFO  resources.Base - user is logout
+12:54:33.708 [TestNG-tests-2] INFO  resources.Base - URL is successfully opened
+12:54:34.594 [TestNG-tests-2] INFO  resources.Base - restricted
+16:31:59.035 [TestNG-tests-1] INFO  resources.Base - Driver Started
+16:31:59.035 [TestNG-tests-2] INFO  resources.Base - Driver Started

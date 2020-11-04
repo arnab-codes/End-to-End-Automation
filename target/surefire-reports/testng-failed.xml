@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="Arnab.Listners2"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="ScreenShot(failed)" parallel="tests">
+    <classes>
+      <class name="Arnab.ValidateTitle">
+        <methods>
+          <include name="validateTitle"/>
+          <include name="BrowserLaunch"/>
+          <include name="closeShop"/>
+        </methods>
+      </class> <!-- Arnab.ValidateTitle -->
+    </classes>
+  </test> <!-- ScreenShot(failed) -->
+  <test thread-count="5" verbose="0" name="log in(failed)" parallel="tests">
+    <classes>
+      <class name="Arnab.Homepage">
+        <methods>
+          <include name="closeShop"/>
+          <include name="start"/>
+          <include name="basePageNavigation" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- Arnab.Homepage -->
+    </classes>
+  </test> <!-- log in(failed) -->
+</suite> <!-- Failed suite [Suite] -->

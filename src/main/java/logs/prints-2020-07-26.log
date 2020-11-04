@@ -1,0 +1,7 @@
+14:09:00.571 [TestNG-tests-2] INFO  resources.Base - URL is successfully opened
+14:09:03.030 [TestNG-tests-2] INFO  resources.Base - restricted
+18:00:33.069 [TestNG-tests-1] INFO  resources.Base - Driver Started
+18:00:33.069 [TestNG-tests-2] INFO  resources.Base - Driver Started
+18:00:48.771 [TestNG-tests-2] INFO  resources.Base - URL is successfully opened
+18:00:51.372 [TestNG-tests-1] INFO  resources.Base - URL is successfully opened
+18:00:58.061 [TestNG-tests-2] INFO  resources.Base - non-restricted
